@@ -13,7 +13,6 @@ RUN apt-get update && \
                   libopengl0 \
                   libxkbcommon-x11-0 \
                   libxcomposite-dev \
-                  # QTWebEngine deps
                   libxdamage-dev libxrandr-dev libxtst6 \
                   curl \
                   gnupg2 \

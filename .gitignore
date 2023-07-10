@@ -1,7 +1,7 @@
 #DS_store, examples, and output pages
 .DS_Store
 examples/
-scraper/scraper/pages/*
+pages/*
 
 
 # Logs
