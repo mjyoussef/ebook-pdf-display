@@ -16,7 +16,7 @@ class WebsiteSpider(scrapy.Spider):
 
     def parse(self, response):
         page = response.url.split("/")[-2]
-        filename = f"../../../../pages/{page}.html"
+        filename = f"../../../pages/{page}.html"
         Path(filename).write_bytes(response.body)
         self.log(f"Saved file {filename}")
 
